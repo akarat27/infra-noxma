@@ -1,0 +1,192 @@
+2017-06-06T19:59:54.664+0700 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-06T19:59:54.696+0700 I CONTROL  [main] ERROR: Cannot write pid file to /home/noxma/mongodb-linux-x86_64-ubuntu1604-3.4.4/bin/: Is a directory
+2017-06-06T20:00:31.063+0700 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-06T20:00:31.073+0700 I CONTROL  [initandlisten] MongoDB starting : pid=6245 port=27017 dbpath=/mongoData/ 64-bit host=ubuntu
+2017-06-06T20:00:31.075+0700 I CONTROL  [initandlisten] db version v3.4.4
+2017-06-06T20:00:31.076+0700 I CONTROL  [initandlisten] git version: 888390515874a9debd1b6c5d36559ca86b44babd
+2017-06-06T20:00:31.076+0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2017-06-06T20:00:31.076+0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-06T20:00:31.076+0700 I CONTROL  [initandlisten] modules: none
+2017-06-06T20:00:31.076+0700 I CONTROL  [initandlisten] build environment:
+2017-06-06T20:00:31.076+0700 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2017-06-06T20:00:31.076+0700 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-06T20:00:31.076+0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-06T20:00:31.076+0700 I CONTROL  [initandlisten] options: { config: "/home/noxma/mongodb-linux-x86_64-ubuntu1604-3.4.4/bin/mongod.conf", net: { bindIp: "127.0.0.1,192.168.11.1", port: 27017 }, processManagement: { fork: true, pidFilePath: "/home/noxma/mongodb-linux-x86_64-ubuntu1604-3.4.4/bin/mongo.pid" }, storage: { dbPath: "/mongoData/", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/home/noxma/mongodb-linux-x86_64-ubuntu1604-3.4.4/log/mongod.log" } }
+2017-06-06T20:00:31.115+0700 E NETWORK  [initandlisten] listen(): bind() failed Cannot assign requested address for socket: 192.168.11.1:27017
+2017-06-06T20:00:31.115+0700 E NETWORK  [initandlisten] Failed to set up sockets during startup.
+2017-06-06T20:00:31.115+0700 E STORAGE  [initandlisten] Failed to set up listener: InternalError: Failed to set up sockets
+2017-06-06T20:00:31.115+0700 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2017-06-06T20:00:31.115+0700 I NETWORK  [initandlisten] removing socket file: /tmp/mongodb-27017.sock
+2017-06-06T20:00:31.115+0700 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2017-06-06T20:00:31.115+0700 I CONTROL  [initandlisten] now exiting
+2017-06-06T20:00:31.115+0700 I CONTROL  [initandlisten] shutting down with code:48
+2017-06-06T20:03:38.039+0700 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-06T20:03:38.052+0700 I CONTROL  [initandlisten] MongoDB starting : pid=6290 port=27017 dbpath=/mongoData/ 64-bit host=ubuntu
+2017-06-06T20:03:38.052+0700 I CONTROL  [initandlisten] db version v3.4.4
+2017-06-06T20:03:38.053+0700 I CONTROL  [initandlisten] git version: 888390515874a9debd1b6c5d36559ca86b44babd
+2017-06-06T20:03:38.053+0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2017-06-06T20:03:38.053+0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-06T20:03:38.053+0700 I CONTROL  [initandlisten] modules: none
+2017-06-06T20:03:38.053+0700 I CONTROL  [initandlisten] build environment:
+2017-06-06T20:03:38.053+0700 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2017-06-06T20:03:38.053+0700 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-06T20:03:38.053+0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-06T20:03:38.053+0700 I CONTROL  [initandlisten] options: { config: "/home/noxma/mongodb-linux-x86_64-ubuntu1604-3.4.4/bin/mongod.conf", net: { bindIp: "127.0.0.1", port: 27017 }, processManagement: { fork: true, pidFilePath: "/home/noxma/mongodb-linux-x86_64-ubuntu1604-3.4.4/bin/mongo.pid" }, storage: { dbPath: "/mongoData/", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/home/noxma/mongodb-linux-x86_64-ubuntu1604-3.4.4/log/mongod.log" } }
+2017-06-06T20:03:38.088+0700 I -        [initandlisten] Detected data files in /mongoData/ created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-06-06T20:03:38.088+0700 I STORAGE  [initandlisten] 
+2017-06-06T20:03:38.089+0700 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2017-06-06T20:03:38.089+0700 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2017-06-06T20:03:38.089+0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=479M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-06-06T20:03:38.646+0700 I CONTROL  [initandlisten] 
+2017-06-06T20:03:38.646+0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-06-06T20:03:38.646+0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-06-06T20:03:38.646+0700 I CONTROL  [initandlisten] 
+2017-06-06T20:03:38.646+0700 I CONTROL  [initandlisten] 
+2017-06-06T20:03:38.646+0700 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2017-06-06T20:03:38.646+0700 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2017-06-06T20:03:38.646+0700 I CONTROL  [initandlisten] 
+2017-06-06T20:03:38.646+0700 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2017-06-06T20:03:38.647+0700 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2017-06-06T20:03:38.647+0700 I CONTROL  [initandlisten] 
+2017-06-06T20:03:38.663+0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/mongoData/diagnostic.data'
+2017-06-06T20:03:38.663+0700 I NETWORK  [thread1] waiting for connections on port 27017
+2017-06-06T20:15:15.625+0700 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-06T20:15:15.638+0700 I CONTROL  [initandlisten] MongoDB starting : pid=6422 port=27017 dbpath=/mongoData/ 64-bit host=ubuntu
+2017-06-06T20:15:15.638+0700 I CONTROL  [initandlisten] db version v3.4.4
+2017-06-06T20:15:15.638+0700 I CONTROL  [initandlisten] git version: 888390515874a9debd1b6c5d36559ca86b44babd
+2017-06-06T20:15:15.638+0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2017-06-06T20:15:15.638+0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-06T20:15:15.638+0700 I CONTROL  [initandlisten] modules: none
+2017-06-06T20:15:15.638+0700 I CONTROL  [initandlisten] build environment:
+2017-06-06T20:15:15.638+0700 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2017-06-06T20:15:15.638+0700 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-06T20:15:15.638+0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-06T20:15:15.638+0700 I CONTROL  [initandlisten] options: { config: "/home/noxma/mongodb-linux-x86_64-ubuntu1604-3.4.4/bin/mongod.conf", processManagement: { fork: true, pidFilePath: "/home/noxma/mongodb-linux-x86_64-ubuntu1604-3.4.4/bin/mongo.pid" }, storage: { dbPath: "/mongoData/", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/home/noxma/mongodb-linux-x86_64-ubuntu1604-3.4.4/log/mongod.log" } }
+2017-06-06T20:15:15.638+0700 W -        [initandlisten] Detected unclean shutdown - /mongoData/mongod.lock is not empty.
+2017-06-06T20:15:15.672+0700 I -        [initandlisten] Detected data files in /mongoData/ created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-06-06T20:15:15.672+0700 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2017-06-06T20:15:15.672+0700 I STORAGE  [initandlisten] 
+2017-06-06T20:15:15.672+0700 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2017-06-06T20:15:15.672+0700 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2017-06-06T20:15:15.672+0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=479M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-06-06T20:15:16.015+0700 I CONTROL  [initandlisten] 
+2017-06-06T20:15:16.015+0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-06-06T20:15:16.015+0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-06-06T20:15:16.015+0700 I CONTROL  [initandlisten] 
+2017-06-06T20:15:16.015+0700 I CONTROL  [initandlisten] 
+2017-06-06T20:15:16.015+0700 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2017-06-06T20:15:16.015+0700 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2017-06-06T20:15:16.015+0700 I CONTROL  [initandlisten] 
+2017-06-06T20:15:16.015+0700 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2017-06-06T20:15:16.015+0700 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2017-06-06T20:15:16.015+0700 I CONTROL  [initandlisten] 
+2017-06-06T20:15:16.019+0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/mongoData/diagnostic.data'
+2017-06-06T20:15:16.022+0700 I NETWORK  [thread1] waiting for connections on port 27017
+2017-06-06T20:15:17.007+0700 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+2017-06-06T20:15:26.425+0700 I NETWORK  [thread1] connection accepted from 192.168.11.1:37260 #1 (1 connection now open)
+2017-06-06T20:15:26.508+0700 I NETWORK  [thread1] connection accepted from 192.168.11.1:37261 #2 (2 connections now open)
+2017-06-06T20:15:41.471+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:46220 #3 (3 connections now open)
+2017-06-06T20:15:41.506+0700 I NETWORK  [conn3] received client metadata from 127.0.0.1:46220 conn3: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.4.0-78-generic" }, platform: "Node.js v6.10.0, LE, mongodb-core: 2.1.11" }
+2017-06-06T21:12:43.500+0700 I NETWORK  [thread1] connection accepted from 192.168.11.1:39611 #4 (4 connections now open)
+2017-06-06T21:13:41.845+0700 I NETWORK  [thread1] connection accepted from 192.168.11.1:39684 #5 (5 connections now open)
+2017-06-06T21:27:16.197+0700 I -        [conn2] end connection 192.168.11.1:37261 (5 connections now open)
+2017-06-06T21:27:16.197+0700 I -        [conn1] end connection 192.168.11.1:37260 (4 connections now open)
+2017-06-06T22:35:48.539+0700 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2017-06-06T22:35:48.540+0700 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2017-06-06T22:35:48.540+0700 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2017-06-06T22:35:48.540+0700 I NETWORK  [signalProcessingThread] closing listening socket: 8
+2017-06-06T22:35:48.540+0700 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2017-06-06T22:35:48.540+0700 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2017-06-06T22:35:48.540+0700 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2017-06-06T22:35:48.549+0700 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2017-06-06T22:35:48.658+0700 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2017-06-06T22:35:48.658+0700 I CONTROL  [signalProcessingThread] now exiting
+2017-06-06T22:35:48.659+0700 I CONTROL  [initandlisten] shutting down with code:0
+2017-06-06T22:42:47.233+0700 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-06T22:42:47.254+0700 I CONTROL  [initandlisten] MongoDB starting : pid=7901 port=27017 dbpath=/mongoData/ 64-bit host=ubuntu
+2017-06-06T22:42:47.254+0700 I CONTROL  [initandlisten] db version v3.4.4
+2017-06-06T22:42:47.254+0700 I CONTROL  [initandlisten] git version: 888390515874a9debd1b6c5d36559ca86b44babd
+2017-06-06T22:42:47.254+0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2017-06-06T22:42:47.254+0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-06T22:42:47.254+0700 I CONTROL  [initandlisten] modules: none
+2017-06-06T22:42:47.254+0700 I CONTROL  [initandlisten] build environment:
+2017-06-06T22:42:47.255+0700 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2017-06-06T22:42:47.255+0700 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-06T22:42:47.255+0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-06T22:42:47.255+0700 I CONTROL  [initandlisten] options: { config: "/home/noxma/mongodb-linux-x86_64-ubuntu1604-3.4.4/bin/mongod.conf", processManagement: { fork: true, pidFilePath: "/home/noxma/mongodb-linux-x86_64-ubuntu1604-3.4.4/bin/mongo.pid" }, storage: { dbPath: "/mongoData/", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/home/noxma/mongodb-linux-x86_64-ubuntu1604-3.4.4/log/mongod.log" } }
+2017-06-06T22:42:47.305+0700 I -        [initandlisten] Detected data files in /mongoData/ created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-06-06T22:42:47.305+0700 I STORAGE  [initandlisten] 
+2017-06-06T22:42:47.305+0700 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2017-06-06T22:42:47.305+0700 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2017-06-06T22:42:47.306+0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=479M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-06-06T22:42:48.044+0700 I CONTROL  [initandlisten] 
+2017-06-06T22:42:48.044+0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-06-06T22:42:48.044+0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-06-06T22:42:48.044+0700 I CONTROL  [initandlisten] 
+2017-06-06T22:42:48.044+0700 I CONTROL  [initandlisten] 
+2017-06-06T22:42:48.044+0700 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2017-06-06T22:42:48.044+0700 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2017-06-06T22:42:48.044+0700 I CONTROL  [initandlisten] 
+2017-06-06T22:42:48.045+0700 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2017-06-06T22:42:48.045+0700 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2017-06-06T22:42:48.045+0700 I CONTROL  [initandlisten] 
+2017-06-06T22:42:48.058+0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/mongoData/diagnostic.data'
+2017-06-06T22:42:48.058+0700 I NETWORK  [thread1] waiting for connections on port 27017
+2017-06-06T22:43:41.895+0700 I NETWORK  [thread1] connection accepted from 192.168.11.1:46328 #1 (1 connection now open)
+2017-06-06T22:43:44.147+0700 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2017-06-06T22:43:44.147+0700 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2017-06-06T22:43:44.147+0700 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2017-06-06T22:43:44.147+0700 I NETWORK  [signalProcessingThread] closing listening socket: 8
+2017-06-06T22:43:44.147+0700 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2017-06-06T22:43:44.147+0700 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2017-06-06T22:43:44.147+0700 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2017-06-06T22:43:44.151+0700 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2017-06-06T22:43:44.261+0700 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2017-06-06T22:43:44.261+0700 I CONTROL  [signalProcessingThread] now exiting
+2017-06-06T22:43:44.262+0700 I CONTROL  [signalProcessingThread] shutting down with code:0
+2017-06-06T22:44:13.968+0700 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-06-06T22:44:13.984+0700 I CONTROL  [initandlisten] MongoDB starting : pid=7956 port=27017 dbpath=/mongoData/ 64-bit host=ubuntu
+2017-06-06T22:44:13.984+0700 I CONTROL  [initandlisten] db version v3.4.4
+2017-06-06T22:44:13.984+0700 I CONTROL  [initandlisten] git version: 888390515874a9debd1b6c5d36559ca86b44babd
+2017-06-06T22:44:13.984+0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2017-06-06T22:44:13.984+0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-06T22:44:13.984+0700 I CONTROL  [initandlisten] modules: none
+2017-06-06T22:44:13.984+0700 I CONTROL  [initandlisten] build environment:
+2017-06-06T22:44:13.984+0700 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2017-06-06T22:44:13.984+0700 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-06T22:44:13.984+0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-06T22:44:13.984+0700 I CONTROL  [initandlisten] options: { config: "/home/noxma/mongodb-linux-x86_64-ubuntu1604-3.4.4/bin/mongod.conf", processManagement: { fork: true, pidFilePath: "/home/noxma/mongodb-linux-x86_64-ubuntu1604-3.4.4/bin/mongo.pid" }, storage: { dbPath: "/mongoData/", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "/home/noxma/mongodb-linux-x86_64-ubuntu1604-3.4.4/log/mongod.log" } }
+2017-06-06T22:44:14.042+0700 I -        [initandlisten] Detected data files in /mongoData/ created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-06-06T22:44:14.042+0700 I STORAGE  [initandlisten] 
+2017-06-06T22:44:14.042+0700 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2017-06-06T22:44:14.042+0700 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2017-06-06T22:44:14.042+0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=479M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-06-06T22:44:14.768+0700 I CONTROL  [initandlisten] 
+2017-06-06T22:44:14.768+0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-06-06T22:44:14.768+0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-06-06T22:44:14.768+0700 I CONTROL  [initandlisten] 
+2017-06-06T22:44:14.769+0700 I CONTROL  [initandlisten] 
+2017-06-06T22:44:14.769+0700 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2017-06-06T22:44:14.769+0700 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2017-06-06T22:44:14.769+0700 I CONTROL  [initandlisten] 
+2017-06-06T22:44:14.769+0700 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2017-06-06T22:44:14.769+0700 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2017-06-06T22:44:14.769+0700 I CONTROL  [initandlisten] 
+2017-06-06T22:44:14.774+0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/mongoData/diagnostic.data'
+2017-06-06T22:44:14.775+0700 I NETWORK  [thread1] waiting for connections on port 27017
+2017-06-06T22:45:41.887+0700 I NETWORK  [thread1] connection accepted from 192.168.11.1:46467 #1 (1 connection now open)
+2017-06-06T22:45:41.896+0700 I NETWORK  [thread1] connection accepted from 192.168.11.1:46468 #2 (2 connections now open)
+2017-06-06T22:48:12.362+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:46316 #3 (3 connections now open)
+2017-06-06T22:48:12.401+0700 I NETWORK  [conn3] received client metadata from 127.0.0.1:46316 conn3: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.4.0-78-generic" }, platform: "Node.js v6.10.0, LE, mongodb-core: 2.1.11" }
+2017-06-06T22:59:25.769+0700 I -        [conn3] end connection 127.0.0.1:46316 (3 connections now open)
+2017-06-06T22:59:40.310+0700 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2017-06-06T22:59:40.310+0700 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2017-06-06T22:59:40.310+0700 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2017-06-06T22:59:40.310+0700 I NETWORK  [signalProcessingThread] closing listening socket: 8
+2017-06-06T22:59:40.310+0700 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2017-06-06T22:59:40.311+0700 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2017-06-06T22:59:40.311+0700 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2017-06-06T22:59:40.314+0700 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2017-06-06T22:59:40.417+0700 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2017-06-06T22:59:40.417+0700 I CONTROL  [signalProcessingThread] now exiting
+2017-06-06T22:59:40.417+0700 I CONTROL  [signalProcessingThread] shutting down with code:0
